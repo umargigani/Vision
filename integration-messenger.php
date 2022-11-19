@@ -10,7 +10,7 @@
  */
 
 $SECRET_CODE = 'abcd1234567890';
-$SUPPORT_BOARD_URL = 'https://chat.msgsmartly.com';
+$SUPPORT_BOARD_URL = 'https://sandbox.msgsmartly.com';
 
 $response_json = file_get_contents('php://input');
 $response = json_decode($response_json, true);
